@@ -255,11 +255,6 @@ public:
         src1DepInst = -1;
         src2DepInst = -1;
 
-        if(id == 182)
-        {
-            int koko = 7;
-        }
-
         for(auto &dep : deps)
         {
             if(dep.reg == addr1)
